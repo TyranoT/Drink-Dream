@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.drink {
+    display: flex;
+    background-color: midnightblue;
+    color: gainsboro;
+    height: 30vh;
+    width: 550px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.foto {
+    background-image: url(Gin-red-provisorio.webp);
+    background-position: -60px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.514);
+    border-radius: 10px 0px 0px 10px;
+    height: 30vh;
+    width: 75%;
+}
+
+.descricao {
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.descricao > ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.descricao > ul > li {
+    margin-top: 10px;
+}

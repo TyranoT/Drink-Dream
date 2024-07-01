@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+.main {
+  background-image: url(../componentes/Imagens/pexels-cottonbro-4667030.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+.logo {
+  height: 100%;
+  width: 12%;
+  max-width: 125px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.links > a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+
+.banner {
+  background-image: url(../componentes/Imagens/barman-preparando-um-delicioso-coquetel-refrescante.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-clip: border-box;
+}
+
+.banner_letrero {
+  backdrop-filter: blur(1.5px);
+  box-shadow: inset 0px 0px 10px black;
+  align-items: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  padding-left: 20px;
+  color: coral;
+  text-shadow: 1px 1px 3px black;
+  line-height: 30px;
+}
+
+.banner_letrero > p{
+  color: gainsboro;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  backdrop-filter: blur(4px);
+}
+
+.conteudo > h2{
+  margin: auto;
+  padding: 40px;
+  text-align: center;
+  width: 100vw;
+  color: gainsboro;
+  text-shadow: 2px 2px 5px black;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: linear-gradient(30deg, black 20%, rgb(54, 54, 54));
+  color: white;
+  list-style: none;
+  box-shadow: inset 0px 0px 10px black;
+}
+
+.footer > div > h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer > div > ul > li {
+  margin-bottom: 10px;
+}
+
+.footer > div > ul > li > a {
+  text-decoration: none;
+  color: white;
+  transition: .5s;
+}
+
+.footer > div > ul > li > a:hover {
+  color: coral;
+}
