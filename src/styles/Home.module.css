@@ -1,5 +1,46 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: 'Nexa';
+  src: local('Nexa'), url(../fontes/nexa_rust_sans/NexaRustSans-Trial-Black2.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Gradia';
+  src: local('Gradia'), url(../fontes/gradia/Gradia.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Nexa_2';
+  src: local('Nexa_2'), url(../fontes/nexa_rust_sans/NexaRustScriptR-Trial-4.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Spark-Stone';
+  src: local('Spark-Stone'), url(../fontes/sparky-stones-font/SparkyStonesRegular-BW6ld.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'The-Globe';
+  src: local('The-Globe'), url(../fontes/the-globe-font/TheGlobePersonalUseBold-2ORlw.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Goldleaf';
+  src: local('Goldleaf'), url(../fontes/goldleaf-bold-font/GoldleafBoldPersonalUseBold-eZ4dO.ttf) format('truetype');
+}
+
+@media (max-width: 800px) {
+  .topo {
+    flex-direction: column;
+  }
+  .logo {
+    width: 150px;
+  }
+  .links {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
 .main {
   background-image: url(../componentes/Imagens/pexels-cottonbro-4667030.jpg);
   background-position: center center;
@@ -17,22 +58,34 @@
 
 .logo {
   height: 100%;
-  width: 12%;
-  max-width: 125px;
+  width: 200px;
   border-radius: 50%;
-  box-sizing: border-box;
 }
 
 .links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  gap: 10px;
 }
 
 .links > a {
   text-decoration: none;
-  font-weight: 600;
+  font-family: Goldleaf, serif;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
   color: black;
+  overflow-y: hidden;
+  transition: .5s;
+}
+
+.links > a:hover {
+  background-color: rgba(0, 0, 0, 0.466);
+  color: coral;
 }
 
 .banner {
@@ -55,7 +108,13 @@
   line-height: 30px;
 }
 
+.banner_letrero h1 {
+  font-family: Nexa, serif;
+}
+
 .banner_letrero > p{
+  font-family: Spark-Stone, sans-serif;
+  font-size: 20px;
   color: gainsboro;
 }
 
@@ -73,6 +132,7 @@
   width: 100vw;
   color: gainsboro;
   text-shadow: 2px 2px 5px black;
+  font-family: Nexa, sans-serif;
 }
 
 .cards {
@@ -97,6 +157,8 @@
 
 .footer > div > h3 {
   text-align: center;
+  font-family: The-Globe, sans-serif;
+  font-size: 28px;
   margin-bottom: 30px;
 }
 
@@ -108,6 +170,8 @@
   text-decoration: none;
   color: white;
   transition: .5s;
+  font-family: The-Globe, sans-serif;
+  font-size: 15px;
 }
 
 .footer > div > ul > li > a:hover {

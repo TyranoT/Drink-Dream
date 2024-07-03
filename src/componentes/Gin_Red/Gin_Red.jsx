@@ -9,9 +9,9 @@ export default function Gin_Red() {
                 Gin Red
               </h3>
               <ul>
-                <li>Esse drink muito conhecido, refrescante, simples e frutado.</li>
+                <li>Nível de Dificuldade: Fácil</li>
                 <li>Este drink é servido numa taça grande.</li>
-                <li>E sua decoração é feita com Limão Seciliano, Morango Fresco e Alecrim.</li>
+                <li>Ingredientes: Gin, Morango, Suco de Limão, Xarope de Açúcar e Agua Tonica.</li>
               </ul>
             </div>
         </div>

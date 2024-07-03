@@ -9,9 +9,9 @@ export default function Mojito() {
                 Mojito
               </h3>
               <ul>
-                <li>Mais um drink muito simples, refrescante e citrico.</li>
-                <li>Este drink é servido em um copo de conhaque ou taça.</li>
-                <li>E sua decoração é feita com Twist de Limão Seciliano e Hortelâ/Alecrim.</li>
+                <li>Nível de Dificuldade: Fácil</li>
+                <li>Este drink é servido em um Long Drink ou Copo Longo.</li>
+                <li>Ingredientes: Rum Prata, Xarope de Açúcar, Hortelâ, Suco de Limão, Àgua com Gás.</li>
               </ul>
             </div>
         </div>

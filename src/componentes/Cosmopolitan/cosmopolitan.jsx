@@ -9,9 +9,9 @@ export default function Cosmopolitan() {
                 Cosmopolitan
               </h3>
               <ul>
-                <li>Mais um drink muito simples, refrescante e citrico.</li>
-                <li>Este drink é servido em um copo de conhaque ou taça.</li>
-                <li>E sua decoração é feita com Twist de Limão Seciliano e Hortelâ/Alecrim.</li>
+                <li>Nível de Dificuldade: Medio</li>
+                <li>Este drink é servido em um taça.</li>
+                <li>Ingredientes: Vodka, Licor de Laranja, Xarope Cramberry e Suco de Limão.</li>
               </ul>
             </div>
         </div>

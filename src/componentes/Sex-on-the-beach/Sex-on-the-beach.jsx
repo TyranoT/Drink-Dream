@@ -9,9 +9,9 @@ export default function Sex_On_The_Beach() {
                 Sex On The Beach
               </h3>
               <ul>
-                <li>Mais um drink muito simples, refrescante e citrico.</li>
-                <li>Este drink é servido em um copo de conhaque ou taça.</li>
-                <li>E sua decoração é feita com Twist de Limão Seciliano e Hortelâ/Alecrim.</li>
+                <li>Nível de Dificuldade: Alto</li>
+                <li>Este drink é servido em Copo Long Drink ou Taça Ondulada.</li>
+                <li>Ingrdientes: Vodka, Suco de Laranja, Xarope de Grenadine e Licor de Pessego.</li>
               </ul>
             </div>
         </div>

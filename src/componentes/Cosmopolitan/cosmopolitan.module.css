@@ -1,11 +1,55 @@
 @charset "UTF-8";
 
+@media (max-width: 600px) {
+    .drink {
+        display: flex;
+        flex-direction: column;
+        background-color: midnightblue;
+        color: gainsboro;
+        margin: auto;
+        width: 70%;
+        border-radius: 10px;
+    }
+    .foto {
+        background-image: url(Cosmopolitan-imagem.webp);
+        background-position: center center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: border-box;
+        box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.514);
+        height: 30vh;
+        width: 100%;
+    }
+    .descricao {
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+
+    .descricao  h3 {
+        margin-top: 20px;
+    }
+    
+    .descricao > ul {
+        text-align: left;
+        margin-top: 20px;
+    }
+    
+    .descricao > ul > li {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 601px) {
+
 .drink {
     display: flex;
     background-color: midnightblue;
     color: gainsboro;
-    width: 550px;
     margin: auto;
+    width: 550px;
     border-radius: 10px;
 }
 
@@ -36,4 +80,5 @@
 
 .descricao > ul > li {
     margin-top: 10px;
+}
 }
