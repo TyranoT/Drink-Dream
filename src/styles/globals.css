@@ -1,8 +1,13 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: Rubik;
+  src: local('Rubik'), url(../fontes/Rubik/Rubik-VariableFont_wght.ttf) format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Rubik, sans-serif;
   overflow-x: hidden;
 }

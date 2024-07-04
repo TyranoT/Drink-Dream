@@ -28,8 +28,10 @@
         padding-right: 30px;
     }
 
-    .descricao  h3 {
+    .descricao > .pag{
         margin-top: 20px;
+        text-decoration: none;
+        color: white;
     }
     
     .descricao > ul {
@@ -71,6 +73,11 @@
     flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.descricao > .pag{
+    text-decoration: none;
+    color: white;
 }
 
 .descricao > ul {
