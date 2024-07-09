@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@media (max-width: 350px) {
+    .conteudo {
+        width: 220px;
+    }
+}
+
+@media (min-width: 351px) {
+    .conteudo {
+        width: 300px;
+    }
+}
+
+@media (min-width: 400px) {
+    .conteudo {
+        width: 400px;
+    }
+}
+
+@media (min-width: 800px) {
+    .conteudo {
+        width: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .conteudo {
+        width: 700px;
+    }
+}
+
+
+.main {
+    background-image: url(../componentes/Imagens/pexels-cottonbro-4667030.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.area {
+    width: 100%;
+    backdrop-filter: blur(4px);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.medidasBotao {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.medidasBotao button {
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.imagem {
+    background-image: url(../componentes/Sex-on-the-beach/drink-sex-on-the-beach.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.descricao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.resumo {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.resumo h2 {
+    margin-bottom: 30px;
+}
+
+.modo {
+    width: 400px;
+}
+
+.modo h3 {
+    margin-bottom: 30px;
+}
+
+.modo .lista li {
+    margin-bottom: 20px;
+}

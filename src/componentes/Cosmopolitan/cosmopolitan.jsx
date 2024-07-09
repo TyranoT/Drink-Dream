@@ -6,7 +6,7 @@ export default function Cosmopolitan() {
           <div className={styles.drink}>
                 <div className={styles.foto}></div>
                 <div className={styles.descricao}>
-                  <Link href="cosmopolitan" className={styles.pag}>
+                  <Link href="pages-drinks/cosmopolitan" className={styles.pag}>
                     <h3>
                       Cosmopolitan
                     </h3>

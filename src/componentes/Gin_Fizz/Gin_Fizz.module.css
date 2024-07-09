@@ -40,6 +40,11 @@
     .descricao > ul > li {
         margin-top: 10px;
     }
+
+    .pag {
+        text-decoration: none;
+        color: gainsboro;
+    }
 }
 
 @media (min-width: 601px) {
@@ -80,5 +85,10 @@
 
 .descricao > ul > li {
     margin-top: 10px;
+}
+
+.pag {
+    text-decoration: none;
+    color: gainsboro;
 }
 }

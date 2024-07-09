@@ -54,6 +54,17 @@
     border-radius: 10px;
 }
 
+.medidasBotao {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.medidasBotao button {
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 .imagem {
     background-image: url(../componentes/Cosmopolitan/Cosmopolitan-imagem.webp);
