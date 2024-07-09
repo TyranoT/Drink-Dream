@@ -1,10 +1,7 @@
 import Head from "next/head";
 import Header from "@/componentes/header/header";
-import Link from "next/link";
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Logo from "../componentes/Logo/drink.png";
 import Gin_Red from "@/componentes/Gin_Red/Gin_Red";
 import Gin_Fizz from "@/componentes/Gin_Fizz/Gin_Fizz";
 import Mojito from "@/componentes/Mojito/mojito";
