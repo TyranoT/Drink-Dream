@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: Rubik;
   src: local('Rubik'), url(../fontes/Rubik/Rubik-VariableFont_wght.ttf) format('truetype');
